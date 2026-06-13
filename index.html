@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abattoir | Online Fraud Detection</title>
+    <meta name="description"
+        content="Check if you are being scammed. Analyze suspicious emails, websites, or AI content.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <nav class="navbar glass-panel">
+        <div class="logo">
+            <i class="ph ph-shield-check"></i>
+            <span>Abattoir</span>
+        </div>
+        <div class="nav-links">
+            <a href="#familiar">Look Familiar?</a>
+            <a href="#analyze">Analyze</a>
+            <a href="#knowledge">Knowledge Base</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section: Look Familiar -->
+        <section id="familiar" class="look-familiar">
+            <div class="badge">Anatomy of a Scam</div>
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Look <span class="text-gradient">Familiar?</span></h1>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">Most modern scams follow a highly
+                engineered psychological script. If you've seen messages like these, you are being targeted.</p>
+
+            <div class="familiar-grid">
+                <!-- Stage 1: Wrong Number -->
+                <div class="familiar-card stage-1">
+                    <h3><i class="ph ph-chat-circle-dots"></i> 1. The "Wrong Number"</h3>
+                    <p class="description">An innocent-looking mistake to start the conversation.</p>
+                    <div class="chat-bubble-container">
+                        <div class="chat-bubble received">"Hey, are we still on for golf at 10 AM tomorrow? Can't wait
+                            to catch up!"</div>
+                        <div class="chat-bubble received secondary">"Hi Lisa, my niece sent me your contact info. Are
+                            you free to help with catering?"</div>
+                        <div class="chat-bubble received secondary">"Hi! Is this Mary? I'm Sarah's friend from the
+                            bookstore."</div>
+                    </div>
+                </div>
+
+                <!-- Stage 2: Trust Building -->
+                <div class="familiar-card stage-2">
+                    <h3><i class="ph ph-handshake"></i> 2. Trust Building</h3>
+                    <p class="description">Shifting from an error to a deep "fated" friendship.</p>
+                    <div class="chat-bubble-container">
+                        <div class="chat-bubble received">"Well, since we texted by mistake, maybe it's fate! Nice to
+                            meet you, I'm David."</div>
+                        <div class="chat-bubble received secondary">"I’m sorry for bothering you, but you seem really
+                            nice. Can we stay in touch?"</div>
+                        <div class="chat-bubble received secondary">"I was just out walking my dog by the beach, here's
+                            a photo! What are you up to?"</div>
+                    </div>
+                </div>
+
+                <div class="familiar-card stage-3">
+                    <h3><i class="ph ph-chart-line-up"></i> 3. The Pivot</h3>
+                    <p class="description">The "Meat" of the scam. Guaranteed returns on crypto or DeFi.</p>
+                    <div class="chat-bubble-container">
+                        <div class="chat-bubble received">"My uncle in Hong Kong showed me this new algorithm for crypto
+                            that is way more stable."</div>
+                        <div class="chat-bubble received secondary">"I just made $15,000 this week working 30 mins a day
+                            on my phone!"</div>
+                        <div class="chat-bubble received secondary">"I use a secure private node to trade. The returns
+                            are absolutely guaranteed."</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New descriptive text -->
+            <div
+                style="margin-top: 3rem; background: rgba(191, 90, 242, 0.05); padding: 2.5rem; border-radius: 24px; border: 1px solid rgba(191, 90, 242, 0.2); max-width: 900px; margin-left: auto; margin-right: auto; text-align: left;">
+                <p style="font-size: 1.15rem; color: var(--text-primary); line-height: 1.6; margin-bottom: 2rem;">
+                    <strong>This is the start to a "pig butchering" scam</strong>, one of the most sophisticated
+                    long-term investment scams. Here is what the full scam looks like and what you need to be aware of:
+                </p>
+
+                <div style="display: grid; gap: 1.5rem;">
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-red); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">1</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">The "Wrong Number" Hook:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">Scammers initiate contact
+                                via unsolicited text messages disguised as an accidental text, or through dating and
+                                professional apps.</span>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-orange); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">2</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">The Grooming Phase:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">They build intense platonic
+                                or romantic relationships over weeks or months without immediately asking for
+                                money.</span>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-orange); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">3</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">The Soft Pivot:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">The scammer casually
+                                mentions their own immense financial success trading cryptocurrency to spark the
+                                victim's curiosity.</span>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-blue); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">4</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">The Controlled Platform:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">The victim is directed to
+                                download a fake app or use a website that perfectly mirrors a legitimate trading
+                                platform.</span>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-blue); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">5</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">Fabricated Gains:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">The platform displays fake,
+                                skyrocketing profits. Scammers may even allow a small initial cash withdrawal to build
+                                absolute confidence.</span>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                        <span
+                            style="background: var(--accent-red); color: white; width: 24px; height: 24px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; margin-top: 0.25rem;">6</span>
+                        <div>
+                            <strong style="color: var(--text-primary);">The Trap:</strong>
+                            <span style="color: var(--text-secondary); font-size: 0.95rem;">When the victim tries to
+                                withdraw their full balance, the platform demands massive fake "IRS taxes" or "insurance
+                                fees" to unlock the funds. Once the victim runs out of money, the scammer
+                                disappears.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section (Moved Lower) -->
+        <section id="analyze" class="hero" style="min-height: auto; padding: 4rem 0;">
+            <div class="hero-content">
+                <div class="badge">AI-Powered Fraud Intelligence</div>
+                <h1 style="font-size: 2.5rem;">Think you're being <span class="text-gradient">scammed?</span></h1>
+                <p style="margin-bottom: 2rem;">Paste the text or upload the image below for an instant neural risk
+                    assessment.</p>
+
+                <div class="glass-panel" style="padding: 1.5rem; text-align: left; border-radius: 24px;">
+                    <div class="tab-header">
+                        <button class="tab-btn active" data-target="text-analyzer"><i class="ph ph-envelope"></i>
+                            Message Scanner</button>
+                        <button class="tab-btn" data-target="link-analyzer"><i class="ph ph-link"></i> Website & AI
+                            Scanner</button>
+                        <button class="tab-btn" data-target="email-analyzer"><i class="ph ph-at"></i> Sender Email
+                            Scanner</button>
+                    </div>
+
+                    <!-- Text Analyzer Tab -->
+                    <div id="text-analyzer" class="tab-content active analysis-box">
+                        <textarea id="scam-input"
+                            placeholder="Paste the suspicious text, email, or describe what happened here..."
+                            rows="5"></textarea>
+                        <div class="analysis-controls">
+                            <span class="secure-note"><i class="ph ph-lock-key"></i> Private text analysis.</span>
+                            <button id="analyze-text-btn" class="primary-btn">
+                                <span>Analyze Text</span>
+                                <i class="ph ph-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Link / AI Analyzer Tab -->
+                    <div id="link-analyzer" class="tab-content analysis-box">
+                        <textarea id="link-input"
+                            placeholder="Paste a website URL or suspected AI-generated article here..."
+                            rows="5"></textarea>
+                        <div class="analysis-controls">
+                            <span class="secure-note"><i class="ph ph-robot"></i> Advanced heuristics & typo
+                                detection.</span>
+                            <button id="analyze-link-btn" class="primary-btn">
+                                <span>Scan Content</span>
+                                <i class="ph ph-scan"></i>
+                            </button>
+                        </div>
+
+                        <!-- Visual Neural Scanner (Upload Mode) -->
+                        <div
+                            style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                            <h4 style="margin-bottom: 1rem; color: var(--text-primary);"><i class="ph ph-image-square"
+                                    style="color:var(--accent-purple)"></i> Visual AI & Neural Scanner</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">Upload an
+                                image or frame to analyze for generative artifacts and structural inconsistencies.</p>
+
+                            <div id="drop-zone"
+                                style="border: 2px dashed rgba(255,255,255,0.1); border-radius: 12px; padding: 2rem; text-align: center; transition: all 0.3s ease; background: rgba(0,0,0,0.2); cursor: pointer;">
+                                <div id="drop-zone-content">
+                                    <i class="ph ph-cloud-arrow-up"
+                                        style="font-size: 2.5rem; color: var(--accent-purple); margin-bottom: 0.5rem;"></i>
+                                    <p style="font-size: 0.9rem; color: var(--text-primary);">Drag & drop image or click
+                                        to browse</p>
+                                    <p style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                                        Supports JPG, PNG, WEBP (Max 10MB)</p>
+                                </div>
+                                <div id="preview-container" class="hidden" style="margin-top: 0.5rem;">
+                                    <img id="upload-preview" src=""
+                                        style="max-height: 150px; border-radius: 8px; border: 1px solid var(--border-color);">
+                                    <p id="file-info"
+                                        style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.5rem;">
+                                    </p>
+                                    <button id="remove-upload"
+                                        style="background:none; border:none; color: var(--accent-red); font-size: 0.75rem; cursor:pointer; margin-top: 0.5rem; display: block; width: 100%;">Remove
+                                        file</button>
+                                </div>
+                                <input type="file" id="visual-upload-input" accept="image/*" class="hidden"
+                                    style="display: none;">
+                            </div>
+
+                            <button id="analyze-visual-btn" class="primary-btn disabled" disabled
+                                style="width: 100%; margin-top: 1.5rem; background: rgba(168, 85, 247, 0.2); border: 1px solid var(--accent-purple); color: var(--text-primary); opacity: 0.5;">
+                                <span id="visual-btn-text">Initialize Neural Scan</span>
+                                <i class="ph ph-lightning"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Email Analyzer Tab -->
+                    <div id="email-analyzer" class="tab-content analysis-box">
+                        <input type="email" id="email-input"
+                            placeholder="Paste the suspicious sender email address here (e.g., support@paypal-alerts.com)..."
+                            style="width:100%; padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.3); color: var(--text-primary); font-family: var(--font-body); margin-bottom: 1rem;">
+                        <div class="analysis-controls">
+                            <span class="secure-note"><i class="ph ph-shield-check"></i> Scans domain age &
+                                typo-squatting.</span>
+                            <button id="analyze-email-btn" class="primary-btn">
+                                <span>Verify Sender</span>
+                                <i class="ph ph-check-square-offset"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="hidden" style="margin-top: 2rem;">
+                    <div class="scanner">
+                        <div class="scanner-bar"></div>
+                    </div>
+                    <p class="scanning-text">Cross-referencing databases and heuristics...</p>
+                </div>
+
+                <!-- Results Section -->
+                <div id="results-area" class="results-container hidden"></div>
+            </div>
+        </section>
+
+        <!-- Information Hub Section -->
+        <section id="knowledge" class="info-hub">
+            <div class="section-header">
+                <h2>Knowledge Base</h2>
+                <p>Empower yourself with deep insights into how scammers operate.</p>
+            </div>
+
+            <div class="glass-panel" style="padding: 2rem; border-radius: 24px;">
+                <div class="tab-header" style="flex-wrap: wrap;">
+                    <button class="tab-btn active" data-target="kb-prevention">Prevention & Basics</button>
+                    <button class="tab-btn" data-target="kb-live-scan">Trending Now <i class="ph ph-radar"
+                            style="color:var(--accent-orange)"></i></button>
+                    <button class="tab-btn" data-target="kb-scam-types">Common Types of Scams</button>
+                    <button class="tab-btn" data-target="kb-scamdemic">The Scamdemic</button>
+                    <button class="tab-btn" data-target="kb-resources">Resources <i class="ph ph-books"
+                            style="color:var(--accent-blue)"></i></button>
+                </div>
+
+                <!-- Tab 1: Prevention -->
+                <div id="kb-prevention" class="tab-content active">
+                    <div class="content-block">
+
+                        <!-- Am I Being Scammed -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); margin-bottom: 1.5rem; border-left: 4px solid var(--accent-red); border-radius: 12px;">
+                            <h3 style="margin-bottom: 1rem;"><i class="ph ph-warning-octagon"
+                                    style="color:var(--accent-red)"></i> Am I Being Scammed?</h3>
+                            <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Urgent demands for action:</strong>
+                                    <br><em>Example:</em> "Your account will be suspended in 24 hours if you do not
+                                    click this link." Legitimate entities will never rush you into a panic.
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Requests for unusual payment
+                                        methods:</strong>
+                                    <br><em>Example:</em> Being asked to pay the IRS with Apple Gift Cards, or being
+                                    guided to a Bitcoin ATM to send money for "safe keeping."
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Unsolicited tech support calls:</strong>
+                                    <br><em>Example:</em> A pop-up on your screen claiming you have a virus and must
+                                    call "Microsoft Support" at a provided 1-800 number immediately.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Immediate Next Steps -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); margin-bottom: 1.5rem; border-left: 4px solid var(--accent-orange); border-radius: 12px;">
+                            <h3 style="margin-bottom: 1rem;"><i class="ph ph-lifebuoy"
+                                    style="color:var(--accent-orange)"></i> Immediate Next Steps</h3>
+                            <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Cease all communication:</strong>
+                                    <br>Do not explain yourself or argue. Simply hang up the phone or block the
+                                    number/email immediately.
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Freeze involved bank accounts:</strong>
+                                    <br>Call your bank's official fraud department immediately. You can legally freeze
+                                    your accounts to stop outgoing wires.
+                                    <div
+                                        style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; margin-top: 0.5rem; font-family: var(--font-body);">
+                                        <strong>Official 24/7 Fraud Hotlines (USA):</strong><br>
+                                        • <strong>Chase:</strong> 1-800-935-9935<br>
+                                        • <strong>Bank of America:</strong> 1-800-432-1000<br>
+                                        • <strong>Wells Fargo:</strong> 1-800-869-3557<br>
+                                        • <strong>Citibank:</strong> 1-888-248-4226<br>
+                                        <em>(Always verify numbers on the back of your official debit/credit card before
+                                            calling.)</em>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Change affected passwords:</strong>
+                                    <br>Log out of all devices and change your email and banking passwords from a
+                                    <em>safe, separate device</em> (like your smartphone, if your computer was
+                                    compromised).
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Future Prevention -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-green); border-radius: 12px;">
+                            <h3 style="margin-bottom: 1rem;"><i class="ph ph-shield-star"
+                                    style="color:var(--accent-green)"></i> Future Prevention</h3>
+                            <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--text-primary);">Enable 2-Factor Authentication
+                                        (2FA):</strong>
+                                    <br>Use an authenticator app (like Google Authenticator or Authy) rather than SMS
+                                    text messages, to prevent SIM-swap attacks.
+                                </li>
+                                <li style="margin-bottom: 0;">
+                                    <strong style="color: var(--text-primary);">Verify identities through a secondary
+                                        channel:</strong>
+                                    <br>If your "boss" texts you demanding a favor, message them on your company's Slack
+                                    or call their known number to confirm it's actually them.
+                                </li>
+                            </ul>
+
+                            <h4
+                                style="margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--text-primary); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem;">
+                                The "Stop, Secure, Share" Protocol</h4>
+                            <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--accent-red);">Stop:</strong>
+                                    Immediately cease all communication with the scammer. Do not try to "get them back"
+                                    or argue; just cut the line.
+                                </li>
+                                <li style="margin-bottom: 1rem;">
+                                    <strong style="color: var(--accent-orange);">Secure:</strong>
+                                    Lock down your assets. Change passwords, freeze your credit, and notify your bank or
+                                    the platform where the scam occurred.
+                                </li>
+                                <li style="margin-bottom: 0;">
+                                    <strong style="color: var(--accent-blue);">Share:</strong>
+                                    Break the silence. Reporting the scam to authorities (like the FTC or IC3) and
+                                    telling your story helps remove the stigma and warns others.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Tab: Trending Now (Live Scan) -->
+                <div id="kb-live-scan" class="tab-content">
+                    <div class="content-block">
+                        <div class="card-icon orange-glow" style="margin-bottom:1rem;"><i class="ph ph-radar"></i></div>
+                        <h3>Trending Now: Live Threat Intel</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Our automated systems continuously
+                            scan the web for the latest warnings directly from authoritative cybersecurity feeds. Here
+                            are the active threats documented this week.</p>
+
+                        <div id="live-scan-feed">
+                            <div style="text-align:center; padding: 3rem;">
+                                <div class="scanner" style="width: 50%; margin: 0 auto 1.5rem auto;">
+                                    <div class="scanner-bar"></div>
+                                </div>
+                                <p class="scanning-text"><i class="ph ph-radar"></i> Hooking into real-time cyber threat
+                                    feeds...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Common Types of Scams (NEW REFACTOR) -->
+                <div id="kb-scam-types" class="tab-content">
+                    <div class="content-block">
+                        <div class="card-icon red-glow" style="margin-bottom:1rem;"><i
+                                class="ph ph-list-magnifying-glass"></i></div>
+                        <h3>Common Scams & Current Threats</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Click on any of the scam
+                            categories below to learn how they work, the major red flags to watch out for, and recent
+                            real-world examples.</p>
+
+                        <!-- Pig Butchering -->
+                        <details class="scam-accordion" style="border-left: 4px solid var(--accent-red);">
+                            <summary><i class="ph ph-piggy-bank" style="color:var(--accent-red); font-size:1.2rem;"></i>
+                                Pig Butchering (Sha Zhu Pan) & Romance Scams</summary>
+                            <div class="scam-accordion-content">
+                                <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">
+                                    Originating in China around 2016, "Pig Butchering" is a devastating hybrid of
+                                    romance/friendship scams and fake crypto investments. Scammers "fatten" victims with
+                                    false affection before "slaughtering" their finances.</p>
+                                <h5 style="margin-bottom: 0.5rem;">The Anatomy of the Scam:</h5>
+                                <ul
+                                    style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">
+                                    <li><strong>The Lure:</strong> "Accidental" wrong number text ("Hi Sarah, it was
+                                        lovely to see you.").</li>
+                                    <li><strong>Fattening:</strong> Weeks of building a deep emotional or romantic bond,
+                                        sharing fake lavish photos.</li>
+                                    <li><strong>The Pivot:</strong> Claiming huge profits from an "uncle's insider tip"
+                                        on a secret crypto platform.</li>
+                                    <li><strong>The Trap:</strong> Victims deposit funds into a fake exchange and even
+                                        withdraw a small "profit" to build trust.</li>
+                                    <li><strong>The Slaughter:</strong> Demanding massive "tax fees" to withdraw full
+                                        funds, then disappearing.</li>
+                                </ul>
+                                <div
+                                    style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); font-size: 0.85rem;">
+                                    <strong>Red Flag Example:</strong> A text from an unknown highly attractive person
+                                    wanting to be friends, who mentions trading cryptocurrency within a few weeks.
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Crypto & Day Trading -->
+                        <details class="scam-accordion" style="border-left: 4px solid var(--accent-orange);">
+                            <summary><i class="ph ph-trend-down"
+                                    style="color:var(--accent-orange); font-size:1.2rem;"></i> Crypto & Day Trading
+                                "Gurus"</summary>
+                            <div class="scam-accordion-content">
+                                <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">
+                                    Fraudsters sell fake courses, "signal groups," or trading bots with guaranteed
+                                    massive returns, exploiting vulnerable demographics expecting quick wealth.</p>
+                                <h5 style="margin-bottom: 0.5rem;">Major Red Flags:</h5>
+                                <ul
+                                    style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">
+                                    <li><strong>Lifestyle Marketing:</strong> Showing off rented Lamborghinis or AirBnB
+                                        mansions to sell a $999 Discord course.</li>
+                                    <li><strong>"Guaranteed" Risk-Free Returns:</strong> No legitimate trading strategy
+                                        is risk-free. Anyone promising it is lying.</li>
+                                </ul>
+                                <div
+                                    style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); font-size: 0.85rem;">
+                                    <strong>Fact Check:</strong> Peer-reviewed studies show that <strong>97%</strong> of
+                                    amateur day traders lose money over a 300-day period. (FGV Study).
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Text/Phishing & Data Breaches -->
+                        <details class="scam-accordion" style="border-left: 4px solid var(--accent-blue);">
+                            <summary><i class="ph ph-envelope-simple"
+                                    style="color:var(--accent-blue); font-size:1.2rem;"></i> Data Breaches & Text
+                                Phishing (Smishing)</summary>
+                            <div class="scam-accordion-content">
+                                <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">
+                                    Criminal syndicates like <strong>ShinyHunters</strong> steal millions of user
+                                    records from cloud databases (e.g. Salesforce) and sell them. Other scammers use
+                                    this data to send highly targeted fake text messages (Smishing) or emails claiming
+                                    to be your bank or the post office.</p>
+                                <h5 style="margin-bottom: 0.5rem;">How to protect yourself:</h5>
+                                <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.9rem;">
+                                    <li>Never click links in unexpected "Package Delivery" or "Bank Alert" texts.</li>
+                                    <li>Freeze your credit with all major bureaus.</li>
+                                    <li>Use a Password Manager and never reuse passwords.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- Deepfakes -->
+                        <details class="scam-accordion" style="border-left: 4px solid var(--accent-purple);">
+                            <summary><i class="ph ph-waveform"
+                                    style="color:var(--accent-purple); font-size:1.2rem;"></i> AI Deepfakes & Voice
+                                Cloning ("Hi Grandma")</summary>
+                            <div class="scam-accordion-content">
+                                <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">
+                                    Scammers now use just 3 seconds of audio from public social media to perfectly clone
+                                    a loved one's voice. They call relatives mimicking distress (e.g., "Hi Grandma, I'm
+                                    in jail, wire me bail money via Zelle").</p>
+                                <h5 style="margin-bottom: 0.5rem;">How to protect yourself:</h5>
+                                <ul style="margin-left: 1.5rem; color: var(--text-secondary); font-size: 0.9rem;">
+                                    <li>Set up a verbal "safe word" with your family.</li>
+                                    <li>If a family member calls from an unknown number demanding money, hang up and
+                                        dial their real saved number to verify it.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- Recovery Scams -->
+                        <details class="scam-accordion" style="border-left: 4px solid var(--accent-green);">
+                            <summary><i class="ph ph-lifebuoy" style="color:var(--accent-green); font-size:1.2rem;"></i>
+                                Secondary Recovery Scams</summary>
+                            <div class="scam-accordion-content">
+                                <p style="color: var(--text-secondary); margin-bottom: 1.2rem; font-size: 0.95rem;">A
+                                    cruel "scam within a scam." After you lose money to fraud, a different scammer
+                                    contacts you pretending to be the FBI, a lawyer, or a "white-hat hacker"
+                                    guaranteeing they can recover your stolen crypto... for an upfront fee.</p>
+                                <div
+                                    style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); font-size: 0.85rem;">
+                                    <strong>Remember:</strong> Lost cryptocurrency is almost <strong>never</strong>
+                                    recoverable by private individuals. Government agencies will <strong>never</strong>
+                                    ask for an upfront fee to investigate fraud.
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Psychology -->
+                <div id="kb-psychology" class="tab-content">
+                    <div class="content-block">
+                        <div class="card-icon purple-glow" style="margin-bottom:1rem;"><i class="ph ph-brain"></i></div>
+                        <h3>The Psychology of Fraud</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Scammers don't just hack
+                            computers; they hack human psychology. Financial fraud is fundamentally an exercise in
+                            social engineering, relying on cognitive biases to bypass your logical thinking centers.</p>
+
+                        <div class="grid-cards">
+                            <div class="mini-card glass-panel" style="padding:1.5rem">
+                                <h4 style="color:var(--accent-red); margin-bottom: 0.5rem;"><i class="ph ph-clock"></i>
+                                    1. The Urgency Trap (Under the Ether)</h4>
+                                <p style="font-size:0.9rem; color:var(--text-secondary)">AARP fraud researchers call it
+                                    the "ether" — a state of high emotional arousal (fear or extreme excitement).
+                                    Creating a panic shuts down the logical prefrontal cortex, forcing a fight-or-flight
+                                    decision.</p>
+                            </div>
+                            <div class="mini-card glass-panel" style="padding:1.5rem">
+                                <h4 style="color:var(--accent-blue); margin-bottom: 0.5rem;"><i
+                                        class="ph ph-police-car"></i> 2. Authority Bias</h4>
+                                <p style="font-size:0.9rem; color:var(--text-secondary)">Imposter scams (the 2nd highest
+                                    fraud category reported to the FTC) pretend to be the IRS, Police, or a CEO. They
+                                    exploit our ingrained sociological tendency to comply with perceived authority.</p>
+                            </div>
+                            <div class="mini-card glass-panel" style="padding:1.5rem">
+                                <h4 style="color:var(--accent-green); margin-bottom: 0.5rem;"><i
+                                        class="ph ph-money"></i> 3. The "Free Lunch" & Reciprocity</h4>
+                                <p style="font-size:0.9rem; color:var(--text-secondary)">Exploiting human greed or
+                                    desperation through promises of guaranteed returns. Scammers often start by doing a
+                                    small "favor" to trigger the human obligation of reciprocity.</p>
+                            </div>
+                            <div class="mini-card glass-panel" style="padding:1.5rem">
+                                <h4 style="color:var(--accent-orange); margin-bottom: 0.5rem;"><i
+                                        class="ph ph-instagram-logo"></i> 4. Social Media & FOMO</h4>
+                                <p style="font-size:0.9rem; color:var(--text-secondary)">Fake, lavish lifestyles posted
+                                    online manufacture a continuous "Fear Of Missing Out" (FOMO). By making people feel
+                                    like they are falling behind or not successful enough, they strip away critical
+                                    thinking and push victims into taking massive, uncharacteristic financial risks to
+                                    catch up.</p>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-secondary);"><em>Fact Check
+                                Sources: <a
+                                    href="https://www.aarp.org/money/scams-fraud/info-2023/psychology-of-scammers.html"
+                                    target="_blank" style="color: var(--accent-blue); text-decoration: none;">AARP Fraud
+                                    Watch Network Research</a> | <a
+                                    href="https://www.ftc.gov/news-events/news/press-releases/2024/02/nationwide-fraud-losses-top-10-billion-2023-ftc-steps-efforts-protect-public"
+                                    target="_blank" style="color: var(--accent-blue); text-decoration: none;">FTC
+                                    Imposter Scam Warnings</a></em></p>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Scamdemic -->
+                <div id="kb-scamdemic" class="tab-content">
+                    <div class="content-block">
+                        <div class="card-icon red-glow" style="margin-bottom:1rem;"><i
+                                class="ph ph-globe-hemisphere-west"></i></div>
+                        <h3>The Modern "Scamdemic"</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Fraud has skyrocketed over the
+                            past few years due to increased remote connectivity during COVID-19 and the unchecked rise
+                            of Generative AI tools.</p>
+
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <span class="stat-number">$12.5B</span>
+                                <span class="stat-number stat-label" style="color:var(--text-secondary)">Total reported
+                                    losses to
+                                    the FBI IC3 in 2023 (a 22% increase).</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">$10B+</span>
+                                <span class="stat-number stat-label" style="color:var(--text-secondary)">Reported
+                                    directly to the
+                                    FTC in 2023 alone.</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">$4.6B</span>
+                                <span class="stat-number stat-label" style="color:var(--text-secondary)">Lost
+                                    specifically to
+                                    investment scams (the highest category).</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <h4 style="margin-bottom: 1rem; color: var(--text-primary);"><i class="ph ph-virus"
+                                    style="color:var(--accent-red)"></i> The COVID-19 Catalyst</h4>
+                            <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;">The
+                                pandemic was a perfect storm for cybercriminals. The sudden shift in global behavior
+                                created systemic vulnerabilities that scammers are still exploiting today:</p>
+
+                            <div class="glass-panel"
+                                style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-orange); margin-bottom: 1rem; border-radius: 12px;">
+                                <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">1. The Isolation Factor
+                                </h5>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0;">With
+                                    lockdowns separating families, extreme loneliness set in—particularly among older
+                                    demographics. Scammers rushed to fill this void via dating apps. Because people
+                                    couldn't legally meet in-person anyway, the classic "I can't meet you" excuse became
+                                    entirely plausible, leading to record-breaking spikes in Romance Scams.</p>
+                            </div>
+
+                            <div class="glass-panel"
+                                style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-blue); margin-bottom: 1rem; border-radius: 12px;">
+                                <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">2. Forced Digital
+                                    Migration</h5>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0;">Overnight,
+                                    millions of vulnerable individuals who had never used online banking, grocery
+                                    delivery apps, or Zoom were forced onto the internet. They lacked fundamental
+                                    cybersecurity education, making them completely unequipped to spot fake tech-support
+                                    pop-ups or spoofed banking alerts.</p>
+                            </div>
+
+                            <div class="glass-panel"
+                                style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-green); margin-bottom: 1.5rem; border-radius: 12px;">
+                                <h5 style="margin-bottom: 0.5rem; color: var(--text-primary);">3. Government Relief
+                                    Phishing</h5>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0;">The rapid
+                                    rollout of stimulus checks and expanded unemployment created massive public
+                                    confusion. Scammers spun up perfectly replicated federal portals and sent millions
+                                    of texts claiming victims needed to "verify their identity to receive their stimulus
+                                    check," harvesting unprecedented amounts of Social Security Numbers.</p>
+                            </div>
+
+                            <h4 style="margin-bottom: 1rem; color: var(--text-primary);"><i class="ph ph-robot"
+                                    style="color:var(--accent-purple)"></i> The AI Weaponizer</h4>
+                            <div class="glass-panel"
+                                style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-purple); border-radius: 12px;">
+                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0;">Following
+                                    the lockdown era, Generative AI advanced rapidly to replace the manual labor of
+                                    scamming. The FTC reports highly organized syndicates now use Deepfakes and AI Voice
+                                    Cloning to terrorize families over the phone, completely bypassing the grammatical
+                                    errors that used to give away phishing campaigns.</p>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-secondary);"><em>Fact Check
+                                Sources: <a
+                                    href="https://www.ftc.gov/news-events/news/press-releases/2024/02/nationwide-fraud-losses-top-10-billion-2023-ftc-steps-efforts-protect-public"
+                                    target="_blank" style="color: var(--accent-blue); text-decoration: none;">FTC
+                                    Consumer Sentinel Data Book 2023</a> | <a
+                                    href="https://www.ic3.gov/Media/PDF/AnnualReport/2023_IC3Report.pdf" target="_blank"
+                                    style="color: var(--accent-blue); text-decoration: none;">FBI IC3 2023 Annual
+                                    Report</a></em></p>
+                    </div>
+                </div>
+
+                <!-- Tab 5: Resources -->
+                <div id="kb-resources" class="tab-content">
+                    <div class="content-block">
+                        <div class="card-icon blue-glow" style="margin-bottom:1rem;"><i class="ph ph-lifebuoy"></i>
+                        </div>
+                        <h3>Recovery Resources & Support</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Rebuilding after financial fraud
+                            is incredibly difficult, but you are not alone. Use these vetted resources to regain control
+                            of your finances, prioritize your mental health, and connect with other survivors.</p>
+
+                        <!-- Financial Resources -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-green); margin-bottom: 1.5rem; border-radius: 12px;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--text-primary);"><i class="ph ph-bank"
+                                    style="color:var(--accent-green)"></i> Financial Recovery Pathways</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">If you have
+                                lost a significant amount of money and need a strict, proven framework to get out of
+                                debt and build back your savings, these educators specialize in financial
+                                rehabilitation:</p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <a href="https://www.ramseysolutions.com/get-started" target="_blank"
+                                    class="primary-btn"
+                                    style="flex:1; justify-content:center; text-decoration:none; background: rgba(255,255,255,0.05); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                    <span>Dave Ramsey: Baby Steps</span>
+                                    <i class="ph ph-arrow-up-right"></i>
+                                </a>
+                                <a href="https://calebhammer.com/" target="_blank" class="primary-btn"
+                                    style="flex:1; justify-content:center; text-decoration:none; background: rgba(255,255,255,0.05); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                    <span>Caleb Hammer: Financial Audit</span>
+                                    <i class="ph ph-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-blue); margin-bottom: 1.5rem; border-radius: 12px;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--text-primary);"><i class="ph ph-shield-check"
+                                    style="color:var(--accent-blue)"></i> Credit Tracking & Identity Protection</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">If your
+                                personal information was compromised, it is critical to continuously monitor your credit
+                                report for unauthorized accounts and remove your data from public broker sites.</p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                                <a href="https://www.experian.com/freemembership" target="_blank" class="primary-btn"
+                                    style="flex:1; justify-content:center; text-decoration:none; background: rgba(255,255,255,0.05); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                    <span>Free Experian Check</span>
+                                    <i class="ph ph-arrow-up-right"></i>
+                                </a>
+                                <a href="https://www.cloaked.com" target="_blank" class="primary-btn"
+                                    style="flex:1; justify-content:center; text-decoration:none; background: rgba(255,255,255,0.05); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                    <span>Cloaked: Data Removal</span>
+                                    <i class="ph ph-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Therapist Resources -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-purple); margin-bottom: 1.5rem; border-radius: 12px;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--text-primary);"><i class="ph ph-brain"
+                                    style="color:var(--accent-purple)"></i> Local Mental Health Support</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">The
+                                psychological toll of being scammed often involves severe shame, trauma, and depression.
+                                A licensed therapist can help you process this. Click below to securely use your
+                                browser's location to find certified trauma therapists near you.</p>
+                            <button id="find-therapist-btn" class="primary-btn"
+                                style="width:100%; justify-content:center; background: var(--accent-purple); color: white; border:none;">
+                                <span>Find Therapists Near Me</span>
+                                <i class="ph ph-map-pin"></i>
+                            </button>
+                            <p id="therapist-status"
+                                style="margin-top:0.75rem; font-size:0.85rem; color: var(--text-secondary); text-align:center;">
+                            </p>
+                        </div>
+
+                        <!-- Abattoir Community -->
+                        <div class="glass-panel"
+                            style="padding: 1.5rem; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-orange); border-radius: 12px;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--text-primary);"><i class="ph ph-users-three"
+                                    style="color:var(--accent-orange)"></i> Abattoir Survivor Community</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">Shame
+                                thrives in isolation. Join our secure, anonymous forum to share your story, warn others,
+                                and talk to people who have survived the exact same scams.</p>
+                            <a href="#community" class="primary-btn"
+                                style="width:100%; justify-content:center; text-decoration:none; background: rgba(255,255,255,0.05); color: var(--text-primary); border: 1px solid var(--border-color);">
+                                <span>Join the Forum (Beta)</span>
+                                <i class="ph ph-chat-centered-text"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent News Section -->
+        <section id="news" class="news-section">
+            <div class="section-header">
+                <h2>Recent Fraud News</h2>
+                <p>Stay updated on the latest global threats and busts.</p>
+            </div>
+            <div class="grid-cards" id="news-grid">
+                <!-- Dynamically populated via app.js -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" style="margin-top: 4rem; margin-bottom: 4rem;">
+            <div class="section-header">
+                <h2>Share Your Story</h2>
+                <p>Sharing your experience anonymously helps us track new scams and educate others.</p>
+            </div>
+            <div class="glass-panel" style="padding: 2rem; border-radius: 24px; max-width: 600px; margin: 0 auto;">
+                <form id="contact-form" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="display: flex; gap: 1rem;">
+                        <input type="text" id="contact-firstname" placeholder="First Name (Optional)"
+                            style="flex: 1; padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.3); color: var(--text-primary); font-family: var(--font-body);">
+                        <input type="text" id="contact-lastname" placeholder="Last Name (Optional)"
+                            style="flex: 1; padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.3); color: var(--text-primary); font-family: var(--font-body);">
+                    </div>
+
+                    <textarea id="contact-reason" placeholder="What happened? Share your story..." rows="5" required
+                        style="padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.3); color: var(--text-primary); font-family: var(--font-body); resize: vertical;"></textarea>
+
+                    <div
+                        style="display: flex; align-items: flex-start; gap: 0.75rem; margin-top: 0.5rem; margin-bottom: 0.5rem; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                        <input type="checkbox" id="request-help"
+                            style="width: 1.2rem; height: 1.2rem; accent-color: var(--accent-purple); margin-top: 0.2rem; cursor: pointer;">
+                        <label for="request-help"
+                            style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.4; cursor: pointer;">I
+                            would like to speak directly with the Abattoir Team for help. I understand I must
+                            provide a valid email address.</label>
+                    </div>
+
+                    <div id="email-field-container" class="hidden"
+                        style="transition: all 0.3s ease; margin-bottom: 0.5rem;">
+                        <input type="email" id="contact-email" placeholder="Email Address (Required for help requests)"
+                            style="width: 100%; padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.3); color: var(--text-primary); font-family: var(--font-body);">
+                    </div>
+
+                    <button type="submit" class="primary-btn" style="width: 100%; justify-content: center;">
+                        <span>Submit Story Anonymously</span>
+                        <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                    <!-- Success Message placeholder -->
+                    <div id="contact-success" class="hidden"
+                        style="margin-top: 1rem; color: var(--accent-green); text-align: center; font-weight: 500;"><i
+                            class="ph ph-check-circle"></i> Submission received! Thank you for sharing.</div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button id="chat-toggle" class="chat-toggle-btn">
+            <i class="ph ph-chat-circle-dots"></i>
+        </button>
+        <div id="chat-window" class="chat-window hidden">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <i class="ph ph-robot" style="color:var(--accent-purple)"></i> Support Assistant
+                </div>
+                <button id="chat-close" class="chat-close"><i class="ph ph-x"></i></button>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot">Hello! I'm the Abattoir AI Assistant. Are you concerned about a suspicious
+                    message or a potential scam?</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Ask for help...">
+                <button id="chat-send"><i class="ph ph-paper-plane-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content glass-panel" style="padding: 2rem; border-radius:24px; margin-bottom: 2rem;">
+            <p style="margin-bottom: 1rem; font-weight: 500; text-align: center;">&copy; 2026 Abattoir. Designed for
+                safety and awareness.</p>
+            <div class="footer-links" style="display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 2rem;">
+                <a href="#" style="color: var(--accent-blue); text-decoration: none; font-size: 0.9rem;">Report a
+                    Scam</a>
+                <a href="#" style="color: var(--accent-blue); text-decoration: none; font-size: 0.9rem;">Privacy
+                    Policy</a>
+                <a href="#" style="color: var(--accent-blue); text-decoration: none; font-size: 0.9rem;">Terms of
+                    Service</a>
+            </div>
+
+            <div style="padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p
+                    style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.6; max-width: 900px; margin: 0 auto; text-align: justify;">
+                    <strong style="color: var(--accent-red);"><i class="ph ph-warning"></i> Legal Disclaimer:</strong>
+                    Abattoir is an educational tool and heuristic analysis platform designed to help identify common
+                    textual and visual patterns associated with online fraud. Our scanning engine relies on historical
+                    data and probability algorithms; <strong>it cannot guarantee 100% detection, blocking, or prevention
+                        of any scam, cyber-attack, or financial fraud.</strong> Cybercriminals constantly evolve their
+                    tactics to bypass automated security measures. The risk assessments provided by our platform do not
+                    constitute legal, financial, or professional cybersecurity advice. By using this website, you
+                    understand and agree that Abattoir, its developers, and its parent organization assume zero
+                    liability for any financial losses, compromised data, identity theft, or damages resulting from
+                    interaction with external threats. A "Low Risk" or "No Flags Detected" result does not mean an email
+                    or link is definitively safe. Always exercise independent critical judgment, never share passwords
+                    or banking details, and actively verify sensitive requests through secondary, trusted channels.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
